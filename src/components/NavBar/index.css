@@ -1,0 +1,93 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2c0e3a;
+  padding: 10px;
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0px;
+}
+
+.match-logo {
+  width: 130px;
+  margin-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .match-logo {
+    width: 250px;
+  }
+}
+
+.score-timer-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.score-display {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .score-display {
+    font-size: 24px;
+  }
+}
+
+.score {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #fec653;
+}
+
+@media (min-width: 768px) {
+  .score {
+    font-size: 24px;
+  }
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.timer-logo {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+@media (min-width: 768px) {
+  .timer-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.countdown {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #fec653;
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .countdown {
+    font-size: 24px;
+  }
+}
